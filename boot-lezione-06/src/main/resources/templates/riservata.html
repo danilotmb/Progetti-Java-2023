@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="'Reserved Page'"></title>
+	</head>
+	<body>
+		<h1 th:text="'Benvenuto in Area Riservata ' + ${utente.username}"></h1>
+		<a th:href="@{/}" th:text="'Torna in Area Free'"></a>
+	</body>
+</html>

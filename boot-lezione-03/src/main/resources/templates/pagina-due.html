@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="'Pagina Due'"></title>
+	</head>
+	<body>
+		<h1 th:text="'Ti trovi in Pagina Due'"></h1>
+		<a th:href="@{/}" th:text="'Torna in Pagina Uno'"></a>
+		
+		<div th:if="${eta >= 18}">
+			<p th:text="'Ciao ' + ${nome} + '! Benvenuto in questa sezione'"></p>
+		</div>
+		
+	</body>
+</html>

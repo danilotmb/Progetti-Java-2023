@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">	
+
+	<head>
+	
+		<meta charset="UTF-8">
+		<title th:text="'Dettaglio Articolo'"></title>
+		
+	</head>
+
+	<body>
+	
+		<div class="card text-bg-dark">
+  		<img th:src="@{'IMG/articolo_' + ${prodotto.id} + '.png'}" class="card-img" alt="...">
+  			<div class="card-img-overlay">
+    			<h5 class="card-title" th:text="${prodotto.titolo}"></h5>
+    			<p class="card-text" th:text="${prodotto.descrizione}"></p>
+    			<p class="card-text"><small></small></p>
+  			</div>
+		</div>
+		
+		<a th:href="@{/}" th:text="'Vai in Home Page'" class="card-text"><small></small></a>
+	</body>
+
+</html>

@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+/Users/danilo/Desktop/JAVA/Work Space/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4055337962.index
+/jee-lezione-02/src/main/java
+/Users/danilo/Desktop/JAVA/Work Space/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3038162674.index
+/jee-lezione-01/src/main/java
+/Users/danilo/Desktop/JAVA/Work Space/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3564929146.index
+/jee-esercitazione-02/src/main/java
+/Users/danilo/Desktop/JAVA/Work Space/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3453446370.index
+/jee-lezione-03/src/main/java

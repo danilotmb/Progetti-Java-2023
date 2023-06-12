@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	
+		<meta charset="UTF-8">
+		<title th:text="'New Operation'"></title>
+		
+	</head>
+	
+	<body>
+		<h4 th:text="'Registrazione Operazione'"></h4>
+		
+		<form method="POST" th:object=${operazione}>
+		
+			<input type="date" th:field="*{data}" required>
+				<p th:if="${#fields.hasErrors('data')}" th:errors="*{data}" style=" color: red" ></p>
+			<br>
+			
+			<input type="text" th:field="*{descrizione}" required>
+				<p th:if="${#fields.hasErrors('descrizione')}" th:errors="*{descrizione}" style=" color: red" ></p>
+			<br>
+			
+			<input type="number" th:field="*{importo}" required>
+				<p th:if="${#fields.hasErrors('importo')}" th:errors="*{importo}" style=" color: red" ></p>
+			<br>
+			
+			<input type="submit" th:value="'Registra Prodotto'">
+			
+			
+		</form>
+	</body>
+	
+</html>

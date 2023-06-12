@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="'Home Page'"></title>
+	</head>
+	
+	<body>
+		<h4 th:text="'Il nostro catalogo'"></h4>
+		<ul>
+			<li th:each="a : ${catalogo}" th:text="${a.id} + 
+			' - ' + ${a.descrizione} + 
+			' - Euro ' + ${#numbers.formatDecimal(a.prezzo, 0, 'POINT', 2, 'COMMA')}"></li>
+		</ul>
+	</body>
+</html>

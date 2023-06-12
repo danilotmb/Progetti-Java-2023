@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="'Pagina Uno'"></title>
+	</head>
+	<body>
+		<h1 th:text="'Ti trovi in Pagina Uno'"></h1>
+		<a th:href="@{due(nome=Mario,eta=40)}" th:text="'Vai in Pagina Due'"></a>
+		
+	</body>
+</html>

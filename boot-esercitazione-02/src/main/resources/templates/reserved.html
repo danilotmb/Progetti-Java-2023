@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="'Area Riservata'"></title>
+	</head>
+	<body>
+		<h3 th:text="'Benvenuto!'+ ${utente.username}"></h3>
+		<h4 th:text="'Riepilogo: '"></h4>
+		<ul>
+			<li th:text="${utente.nome}"></li>
+			<li th:text="${utente.cognome}"></li>
+			<li th:text="${utente.mail}"></li>
+			<li th:text="${utente.cf}"></li>
+			<li th:text="${utente.via}"></li>
+			<li th:text="${utente.civico}"></li>
+			<li th:text="${utente.comune}"></li>
+			<li th:text="${utente.caap}"></li>
+			<li th:text="${utente.provincia}"></li>
+		</ul>
+		
+		<a th:href="@{/reserved}" th:text="'Vai in Home Page'"></a>
+	</body>
+</html>

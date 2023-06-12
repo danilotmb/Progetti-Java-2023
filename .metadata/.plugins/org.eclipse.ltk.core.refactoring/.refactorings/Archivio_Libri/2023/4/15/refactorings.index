@@ -1,0 +1,19 @@
+1681378007704	Rename resource 'index.html'
+1681379941199	Rename resource 'libri.html'
+1681380620844	Rename type 'LibriController'
+1681395860675	Rename resource 'autori.html'
+1681396014849	Delete element
+1681396184239	Rename type 'AutoreController'
+1681397070386	Rename type 'CategorieController'
+1681473402623	Delete element
+1681473409896	Rename resource 'indexAutori2.html'
+1681483381564	Copy file
+1681485872877	Rename type 'AutoreControllerForm'
+1681485897395	Rename type 'Form_Controller_Autore'
+1681485912758	Rename type 'AutoreControllerIndex'
+1681485934492	Rename type 'CategorieControllerIndex'
+1681485950159	Rename type 'CategorieControllerForm'
+1681485973754	Rename type 'LibriControllerIndex'
+1681485982928	Rename type 'LibriControllerForm'
+1681485997591	Rename type 'LibriControllerDettaglio'
+1681489087767	Delete element

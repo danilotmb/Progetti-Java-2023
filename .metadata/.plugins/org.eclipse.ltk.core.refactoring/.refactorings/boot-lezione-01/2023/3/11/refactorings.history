@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;boot-lezione-01&apos;&#x0A;- Original project: &apos;boot-lezione-01&apos;&#x0A;- Original element: &apos;boot-lezione-01/src/main/java/it.corso.it.corso&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.it.corso" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.it" elements="2" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1678984254942" subPackages="false" version="1.0"/>
+</session>

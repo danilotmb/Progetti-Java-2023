@@ -1,0 +1,11 @@
+INDEX VERSION 1.4+/Users/danilo/Desktop/JAVA/Work Space/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2148100750.index
+3332066924.index
+680865600.index
+3564376587.index
+419445556.index
+2734494932.index
+3209233027.index
+402533733.index
+2979823354.index
+3142377759.index

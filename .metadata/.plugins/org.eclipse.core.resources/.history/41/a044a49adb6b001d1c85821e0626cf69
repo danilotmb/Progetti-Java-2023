@@ -1,0 +1,64 @@
+package it.corso.variabili;
+
+public class OperatoriAritmetici 
+{
+
+	public static void main(String[] args) 
+	{
+		//operatore + (somma e concatenazione) 
+		int interoUno = 10;
+		int interoDue = 10;
+		String stringaUno= "Ciao";
+		System.out.println(interoUno + interoDue);                      //somma
+		System.out.println(stringaUno + interoUno + interoDue);         //concatenazione
+		System.out.println(stringaUno + (interoUno + interoDue));       //concatenazione + somma
+		
+		
+		
+		//operatore divisione tra interi
+		int interoTre = 5;
+		int interoQuattro = 2;
+		System.out.println(interoTre / interoQuattro);                 //tronca la parte decimale NON approssima
+		
+		//opertaore di divisione tra decimali 
+		double decimaleUno = 5;
+		double decimaleDue = 2;
+		System.out.println(decimaleUno / decimaleDue);
+		
+		
+		//divisione corretta tra interi (CASTING ovvero trasformare un tipo dato, omogenei, in un altro)
+		
+		//CASTING IMPLICITO
+		int interoCinque = 5;
+		int interoSei = 2;
+		double decimaleTre = interoCinque;
+		double decimaleQuattro = interoSei;
+		System.out.println(decimaleTre / decimaleQuattro);
+		
+		
+		//operatore resto tra interi 
+		int interoSette = 5;
+		int interoOtto = 2;
+		System.out.println(interoSette % interoOtto);             //% operatore resto
+		
+		
+		//esempi di casting impliciti ed espliciti 
+		byte byteUno = 45;
+		int intero = byteUno;
+		short cortoUno = (short) intero;                          //specifico che nonostante la differnza di "memoria" l'operazione va bene lo stesso mettendo (short)
+		double decimale = cortoUno;
+		float decimaleScarso = (float) decimale;                  //stessa cosa di short
+		
+		
+		
+		
+		
+	
+		
+		
+		
+		
+		
+	}
+
+}

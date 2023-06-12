@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+	
+		<meta charset="UTF-8">
+		<title th:text="'Home Page'"></title>
+		
+	</head>
+	
+	<body>
+		<form method="POST" th:object="${utente}">
+		
+			<input type="text" th:field="*{nome}" th:placeholder="'Il tuo nome...'" required>
+			<p th:if="${#fields.hasErrors('nome')}" th:errors="*{nome}" style="color:red"></p>
+			<br>
+			
+			<input type="text" th:field="*{cognome}" th:placeholder="'Il tuo cognome...'" required>
+			<p th:if="${#fields.hasErrors('cognome')}" th:errors="*{cognome}" style="color:red"></p>
+			<br>
+			
+			<input type="text" th:field="*{mail}" th:placeholder="'La tua mail...'" required>
+			<p th:if="${#fields.hasErrors('mail')}" th:errors="*{mail}" style="color:red"></p>
+			<br>
+			
+			<input type="text" th:field="*{cf}" th:placeholder="'Il tuo Codice Fiscale...'" required>
+			<p th:if="${#fields.hasErrors('cf')}" th:errors="*{cf}" style="color:red"></p>
+			<br>
+			
+			<input type="text" th:field="*{via}" th:placeholder="'La tua via...'" required>
+			<p th:if="${#fields.hasErrors('via')}" th:errors="*{via}" style="color:red"></p>
+			<br>
+			
+			<input type="number" th:field="*{civico}" th:placeholder="'Il tuo civico...'" required>
+			<p th:if="${#fields.hasErrors('civico')}" th:errors="*{civico}" style="color:red"></p>
+			<br>
+			
+			<input type="number" th:field="*{caap}" th:placeholder="'Il tuo caap...'" required>
+			<p th:if="${#fields.hasErrors('caap')}" th:errors="*{caap}" style="color:red"></p>
+			<br>
+			
+			<input type="text" th:field="*{comune}" th:placeholder="'Il tuo Comune...'" required>
+			<p th:if="${#fields.hasErrors('comune')}" th:errors="*{comune}" style="color:red"></p>
+			<br>
+					
+			<input type="text" th:field="*{provincia}" th:placeholder="'La tua provincia...'" required>
+			<p th:if="${#fields.hasErrors('provincia')}" th:errors="*{provincia}" style="color:red"></p>
+			<br>
+			
+			<input type="text" th:field="*{username}" th:placeholder="'Il tuo username...'" required>
+			<p th:if="${#fields.hasErrors('username')}" th:errors="*{username}" style="color:red"></p>
+			<br>
+			
+			<input type="password" th:field="*{password}" th:placeholder="'La tua password...'" required>
+			<p th:if="${#fields.hasErrors('password')}" th:errors="*{password}" style="color:red"></p>
+			<br>
+			
+			<input type="submit" th:value="'Registra Utente'">
+			<br>
+			
+		
+		</form>
+			
+		<a th:href="@{/login}" th:text="'Vai in Area Riservata'"></a>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=boot-lezione-05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{UtenteService.java[UtenteService" modifiers="513" timestamp="1679482857000"/>
+    <typeInfo handle="=boot-lezione-06/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{UtenteService.java[UtenteService" modifiers="513" timestamp="1679492154000"/>
+    <typeInfo handle="=boot-lezione-07/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{ProdottoService.java[ProdottoService" modifiers="513" timestamp="1679496142000"/>
+    <typeInfo handle="=boot-esercitazione-catalogo/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{ProdottoService.java[ProdottoService" modifiers="513" timestamp="1679561651000"/>
+    <typeInfo handle="=boot-lezione-08/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{UtenteService.java[UtenteService" modifiers="513" timestamp="1679570147000"/>
+    <typeInfo handle="=boot-esercitazione-02/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{UtenteService.java[UtenteService" modifiers="513" timestamp="1679996651000"/>
+    <typeInfo handle="=boot-lezione-09/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{ProdottoService.java[ProdottoService" modifiers="513" timestamp="1680010756000"/>
+    <typeInfo handle="=esercitazione-bilancio-familiare/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{OperazioneService.java[OperazioneService" modifiers="513" timestamp="1680181790000"/>
+    <typeInfo handle="=esercitazione-bilancio-familiare/\/Users\/danilo\/.m2\/repository\/com\/mysql\/mysql-connector-j\/8.0.32\/mysql-connector-j-8.0.32.jar=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/com.mysql=/=/maven.artifactId=/mysql-connector-j=/=/maven.version=/8.0.32=/=/maven.scope=/runtime=/=/maven.pomderived=/true=/&lt;com.mysql.cj.x.protobuf(MysqlxExpr$OperatorOrBuilder.class[OperatorOrBuilder" modifiers="1545" timestamp="1680007958000"/>
+    <typeInfo handle="=boot-lezione-10/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{ClienteService.java[ClienteService" modifiers="513" timestamp="1680610733000"/>
+    <typeInfo handle="=boot-lezione-10/\/Users\/danilo\/.m2\/repository\/org\/apache\/tomcat\/embed\/tomcat-embed-websocket\/9.0.73\/tomcat-embed-websocket-9.0.73.jar=/maven.pomderived=/true=/=/maven.groupId=/org.apache.tomcat.embed=/=/maven.artifactId=/tomcat-embed-websocket=/=/maven.version=/9.0.73=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;javax.websocket(ClientEndpointConfig.class[ClientEndpointConfig" modifiers="1537" timestamp="1679569856000"/>
+    <typeInfo handle="=boot-lezione-10/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{ProdottoService.java[ProdottoService" modifiers="513" timestamp="1680611170000"/>
+    <typeInfo handle="=boot-lezione-10/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{OrdineService.java[OrdineService" modifiers="513" timestamp="1680611532000"/>
+    <typeInfo handle="=boot-esercitazione-rubrica/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{ContattoService.java[ContattoService" modifiers="513" timestamp="1680688743000"/>
+    <typeInfo handle="=Archivio_Libri/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{AutoreService.java[AutoreService" modifiers="513" timestamp="1681489670000"/>
+    <typeInfo handle="=Archivio_Libri/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{CategoriaService.java[CategoriaService" modifiers="513" timestamp="1681489021000"/>
+    <typeInfo handle="=Archivio_Libri/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;it.corso.service{LibroService.java[LibroService" modifiers="513" timestamp="1681639592000"/>
+</typeInfoHistroy>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title th:text="'Home Page'"></title>
+	</head>
+	<body>
+		<h4 th:text="'Catalogo Prodotti'"></h4>
+		<table>
+			<tr th:each="p : ${catalogo}">
+				<td th:text="${p.descrizione}"></td>
+				<td th:text="${#numbers.formatDecimal(p.prezzo, 0,'POINT',2,'COMMA')}"></td>
+				<td>
+					<a th:href="@{aggiungi(id=${p.id})}" th:text="'Aggiungi al carrello'"></a>
+				</td>
+			</tr>
+		
+		</table>
+		
+		<a th:href="@{/reserved}" th:text="'Vai in Area Riservata'"></a>
+	</body>
+</html>
