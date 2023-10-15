@@ -1,5 +1,5 @@
 # Progetti-Java-2023
-Salve, in questa repository troverete tutti i progetti fatti durante il corso Java seguito nel 2023. I progetti vanno dal piú basilare ai piú complicati.
+Salve, in questa repository troverete tutti i progetti fatti durante il corso Java seguito nel 2023. I progetti vanno dal piú basilare ai piú complicati. Durante questo percorso abbiamo usato anche il Framework Spring e la versione Enterprise di Java.
 Il corso si è concluso con un test finale che racchiudeva tutte le cose imparate durante l'anno.
 Grazie per l'attenzione.
 
